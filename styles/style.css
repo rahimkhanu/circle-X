@@ -76,8 +76,13 @@ html{
     color: white !important;
 }
 .color-white a{
-    color: #171d3f!important;;
+    color: #171d3f!important;
 }
+.dropdown-item.active-sub{
+    background-color: #171d3f;
+    color: white!important;
+    
+  }
 
 /* ****************
    Navbar End
