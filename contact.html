@@ -33,7 +33,7 @@
                     <div class="collapse navbar-collapse " id="navbarNav">
                         <ul class="navbar-nav ms-auto align-items-center">
                             <li class="nav-item">
-                                <a class="nav-link active text-md-white" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active text-md-white" aria-current="page" href="index.html">Home</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a
@@ -47,19 +47,25 @@
                                 </a>
                                 <ul class="dropdown-menu mt-2 color-white">
                                     <li>
-                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="./service-1.html">Development</a>
                                     </li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
                                     <li>
-                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="./CRM.html">CRM Solution</a>
                                     </li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
                                     <li>
-                                        <a class="dropdown-item" href="#">Something else here</a>
+                                        <a class="dropdown-item" href="./ui ux.html">UX/UI Solution</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="./IT support.html">IT Support</a>
                                     </li>
                                 </ul>
                             </li>
@@ -83,7 +89,9 @@
                 </h1>
                 <div class="h1-div ms-lg-4 pttt-5">
                     <div class="d-flex align-items-center justify-content-center ">
-                        <i id="arrow-2" onclick="scrollDown()" class="fa-solid fa-angle-down icon first-icon float-end"></i>
+                        <a href="#hero">
+                            <i id="arrow" class="fa-solid fa-angle-down icon first-icon light-green"></i>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -107,14 +115,38 @@
                         </div>
                     </div>
                     <div class="col-12 col-md-12 col-lg-6 sec-col position-relative pss-5  p-5 p-lg-5 bg-white">
-                        <form action="/action_page.php"> 
-                           
-                            <input type="text" id="fname" name="fname" placeholder="Name">
-                            <input type="text" id="lname" name="lname" placeholder="Email">
-                            <input type="text" id="lname" name="lname" placeholder="company">
-                            <input type="text" id="lname" name="lname" placeholder="phone">
-                            <input type="text" id="lname" name="lname" placeholder="Description" class="ptt-5">
-
+                        <form action="/action_page.php">
+                            <input
+                                type="text"
+                                id="fname"
+                                name="fname"
+                                placeholder="Name"
+                            >
+                            <input
+                                type="text"
+                                id="lname"
+                                name="lname"
+                                placeholder="Email"
+                            >
+                            <input
+                                type="text"
+                                id="lname"
+                                name="lname"
+                                placeholder="company"
+                            >
+                            <input
+                                type="text"
+                                id="lname"
+                                name="lname"
+                                placeholder="phone"
+                            >
+                            <input
+                                type="text"
+                                id="lname"
+                                name="lname"
+                                placeholder="Description"
+                                class="ptt-5"
+                            >
                             <button class="site-button float-md-end  my-5">Submit</button>
                         </form>
                     </div>

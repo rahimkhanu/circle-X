@@ -30,9 +30,9 @@ window.onload = changeImg();
 
 
 // for page down
-function scrollDown() {
-    window.scrollTo(0, 6800)
-}
+// function scrollDown() {
+//     window.scrollTo(0, 6800)
+// }
 // avatar card slider
 let sliderLeftArrow = document.querySelector('.slider-left-arrow')
 let sliderRighttArrow = document.querySelector('.slider-right-arrow')

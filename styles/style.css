@@ -3,10 +3,13 @@
 @import url('global.css');
 
 
-
 * {
     box-sizing: border-box;
     padding: 0;
+}
+html{
+    scroll-padding-top:90px ;
+    scroll-behavior: smooth;
 }
 
 .container-small {

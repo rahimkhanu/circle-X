@@ -34,7 +34,7 @@ h3 {
   color:#A0FD41 ;
 }
 .bg-light-green{
-  background-color:#A0FD41 ;
+  color: #a0fd41!important; ;
 }
 .grey--{
   color :#CBCBCB;
@@ -76,3 +76,11 @@ h3 {
   height:45px ;
   object-fit: cover;
 } */
+.active{
+  opacity: .5;
+}
+.active-sub{
+  background-color: #4860e4;
+
+  
+}
