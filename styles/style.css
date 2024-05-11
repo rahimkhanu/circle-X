@@ -41,7 +41,7 @@
     color: white;
     font-size: 17px;
     font-weight: 600;
-    padding: 0 15px;
+    padding: 5px 15px;
 
 }
 
@@ -946,7 +946,7 @@ Hero-Section
 
 #arrow-2 {
     color: #57C603;
-    font-size: 70px;
+    font-size: clamp(61px, 5vw ,40px)
 
 }
 
@@ -1164,6 +1164,9 @@ Media Quries
 #hero-2 .custom-height {
     min-height: 100%;
 }
+.content-1{
+    max-width: 100%;
+}
 
 @media only screen and (max-width: 1023px) {
     .container-small {
@@ -1190,6 +1193,7 @@ Media Quries
     .h1-size {
         margin-top: 60px;
         width: 100%;
+        line-height: 30px;
     }
 
     .card-img-top {
@@ -1225,6 +1229,9 @@ Media Quries
 
     #section-6 .btn {
         padding: 1px 20px;
+    }
+    #section-7 .heading{
+        padding-top: 20px;
     }
 
     #seciton-8 .horizontal-border {
@@ -1334,6 +1341,18 @@ ______________________________________________________________________ */
     #hero-2 .custom-height {
         height: 161%;
     }
+    #p2-section-2 .content{
+        max-width: 80%;
+    }
+    #p2-section-3 .heading{
+        max-width: 80%;
+    }
+    #p2-section-3 .content{
+        max-width: 80%;
+    }
+    .card-section-h3{
+        width: 100%;
+    }
 }
 
 /* _____________________________________________________________________
@@ -1365,6 +1384,7 @@ ______________________________________________________________________ */
 
     .card-section-h3 {
         padding-bottom: 20px;
+        width: 100%;
     }
 
     #section-6 .btn {
@@ -1391,7 +1411,7 @@ ______________________________________________________________________ */
     }
 
     #section-8 .content {
-        width: 100%;
+        max-width: 90%;
     }
 
     .left-arrow {
@@ -1438,6 +1458,18 @@ ______________________________________________________________________ */
 
     #hero-2 .custom-height {
         height: 180%;
+    }
+    #hero-2 .hero-content {
+        padding: 50px 0 20px 0;
+    } 
+    #p2-section-2 .content{
+        max-width: 80%;
+    }
+    #p2-section-3 .content{
+        max-width: 80%;
+    }
+    #p2-section-3 .heading{
+        max-width: 80%;
     }
 
 
