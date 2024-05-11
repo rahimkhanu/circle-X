@@ -1,0 +1,78 @@
+:root {
+  --heading: 'Outfit', sans-serif;
+  --body: 'Outfit', sans-serif;
+  --btn: 'Great Vibes', cursive;
+  --btns: "Poppins", sans-serif;
+  --bg-primary: black!important;
+}
+
+a,
+li,
+ul,
+button {
+  font-family: var(--body);
+}
+
+h1 {
+  font-size: clamp(20px, 25px, 45px);
+}
+
+h3 {
+  font-size: clamp(22px, 8vw, 34px);
+  font-family: var(--body);
+
+}
+/* ================
++++++++++++++
+     Colors
+++++++++++++++
+================= */
+.bg-darkblue{
+  background-color:#171D3F ;
+}
+.light-green{
+  color:#A0FD41 ;
+}
+.bg-light-green{
+  background-color:#A0FD41 ;
+}
+.grey--{
+  color :#CBCBCB;
+}
+.darkgrey--{
+  color: #5F6C7B;
+}
+.purple{
+  color:#5950AF;
+}
+
+
+/* +++++++++++++
+    Style
+++++++++++++ */
+.align-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.align-center-column{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.site-button{
+  padding: 8px 60px;
+  background-color: #A0FD41;
+  border: none;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+/* .photo-shop-logo{
+  width:45px ;
+  height:45px ;
+  object-fit: cover;
+} */

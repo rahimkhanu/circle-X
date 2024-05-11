@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>circleX site</title>
+        <!-- ********bootstrap********** -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body>
+        <!-- ****header****** -->
+        <header id="site-header">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="photo/Group 17.png" alt="">
+                    </a>
+                    <button
+                        class="navbar-toggler text-white bg-white"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse " id="navbarNav">
+                        <ul class="navbar-nav ms-auto align-items-center">
+                            <li class="nav-item">
+                                <a class="nav-link active text-md-white" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Service
+                                </a>
+                                <ul class="dropdown-menu mt-2 color-white">
+                                    <li>
+                                        <a class="dropdown-item" href="#">Action</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <button class="Contact-button">Contact</button>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- ***********
+        HERO SECTION -->
+        <!-- ************ -->
+        <section id="hero" class="position-relative">
+            <div class="row position-absolute w-100 h-100 top-0 left-0 z-n1">
+                <div class="col-12 col-md-12 col-lg-6 bg-blue"></div>
+            </div>
+            <div class="container mx-auto hero-content">
+                <div class="row flex-column-reverse  flex-lg-row">
+                    <div class="col-12 col-md-6 col-lg-6  first-col d-flex align-items-center ">
+                        <div class="h1-div ms-lg-4">
+                            <h1 class="h1-size txt-lg ">
+                                Outstanding Custom
+                                <span class="span-1">Mobile App</span>
+                                <span class="span-2 d-none">Website</span>
+                                Develop & Design
+                            </h1>
+                            <p class="txt-small pt-xl-1">
+                                Your business faces unique challenges.
+                        Leverage a custom mobile app to meet those challenges 
+                        head-on and grow your customer base. From design to development 
+                        to release, we've got you covered.
+                            </p>
+                            <button class="Contact-button2 ">Contact</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 sec-col position-relative ">
+                        <div class="slider-div ">
+                            <div>
+                                <img
+                                    src="photo/mobiles.png"
+                                    width="100%"
+                                    height=""
+                                    class="img-1"
+                                >
+                                <img src="photo/laptop.png" width="100%" class="img-2 d-none">
+                            </div>
+                            <div class="photo-icon d-flex justify-content-between bottom-0">
+                                <i id="arrow" onclick="scrollDown()" class="fa-solid fa-angle-down icon first-icon"></i>
+                                <div>
+                                    <span class="sec-icon mb-2 span-blue"></span>
+                                    <span class="sec-icon-2"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ************
+        Section 2
+        *********** -->
+        <section id="section-2">
+            <div class="container
+            -small">
+                <div class=" d-flex flex-column align-items-center">
+                    <h3 class="heading pb-3">
+                        you share your idea. We Get done
+                    </h3>
+                    <p class="content txt-normal">
+                        We transform bold business ideas into exceptional digital products.
+                         Searching for a partner that will take the process of software development
+                          off your hands? You’ve come to the right place. We ideate, design, and develop 
+                          data-driven digital products made to answer business challenges. We offer 360° 
+                          services to smoothly guide you on your way to creating a seamless digital masterpiece.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!--*************
+        Section 3
+        888888888888 -->
+        <section id="card-section">
+            <div class="container-small">
+                <h3 class="card-section-h3 text-center">See what we can do for you</h3>
+                <div class="row">
+                    <div class="col-12 col-lg-6 pe-lg-5 mb-5 mb-lg-5">
+                        <div class="card border-0 rounded-0 w-100">
+                            <img src="photo/card-1.png " class="card-img-top pb-2" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Development</h5>
+                                <p class="card-text txt-normal p-0">Our development is flawlessly crafted, ensuring every pixel shines with perfection.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 ps-lg-5 mb-5 mb-lg-5">
+                        <div class="card border-0 rounded-0 w-100">
+                            <img src="photo/card-2.png " class="card-img-top pb-2" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">CRM Solutiont</h5>
+                                <p class="card-text txt-normal p-0">We improve how customers feel and help them achieve success.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 pe-lg-5 mb-5 mb-lg-0 mt-lg-5">
+                        <div class="card border-0 rounded-0">
+                            <img src="photo/card-3.png " class="card-img-top pb-2" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">UX/UI Design</h5>
+                                <p class="card-text txt-normal p-0">Crafting Brilliance: User-Centric, Sleek Designs for UI/UX, Web, Logos, and More.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 ps-lg-5 mb-5 mb-lg-0 mt-lg-5">
+                        <div class="card border-0 rounded-0">
+                            <img src="photo/card-4.png " class="card-img-top pb-2" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">IT Support</h5>
+                                <p class="card-text txt-normal p-0">We provide skilled support for your technology challenges.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- *************
+        Section-4
+        ************* -->
+        <section id="section-4">
+            <div class="container-small">
+                <div class=" d-flex flex-column align-items-center">
+                    <h3 class="heading pb-3">
+                        We live and breathe mobile
+                    </h3>
+                    <p class="content txt-normal m-0">
+                        We've worked on a number of mobile app projects. We'd be delighted to help you with your mobile app.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- 88888888888
+        Section-5
+        88888888888 -->
+        <section id="section-5">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-6 bg-blue"></div>
+                <div class="container-small mx-auto hero-content">
+                    <div class="row flex-column-reverse flex-lg-row">
+                        <div class="col-12 col-md-12 col-lg-6 s5-col px-2">
+                            <div class="h1-div ms-lg-4">
+                                <h3 class="heading">
+                                    Fast safe data
+                                </h3>
+                                <button class="btn me-2 my-1 my-lg-4">IOS & Android</button>
+                                <button class="btn ms-4 ms-md-2">UI & UX</button>
+                                <p class="content pt-4 pt-xl-1">
+                                    The Fast safe data is help you with  send protectly send the your File and no one can acess , if you send picure’s and video’s so this is help’ with if regular send your data this is help you more fast and protect wayso go check this app and download the app and enjay.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 ">
+                            <div class="slider-div">
+                                <img
+                                    src="photo/screens.png"
+                                    width="100%"
+                                    height="100%"
+                                    class="img-1"
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- *********
+        Section-6
+        ********* -->
+            <section id="section-6">
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-12 col-lg-7 p-sm-0">
+                            <div class="slider-div">
+                                <img
+                                    src="photo/image 2.jpg"
+                                    width="100%"
+                                    height="100%"
+                                    class="img-1"
+                                >
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-12 col-lg-5 pt-lg-5 s6-first-col">
+                            <div class="h1-div ms-lg-4">
+                                <h3 class="heading">
+                                    TRVL
+                                </h3>
+                                <button class="btn me-2 my-1 my-lg-4">Website</button>
+                                <button class="btn ms-lg-4 ms-md-2">UI & UX</button>
+                                <p class="content pt-4 pt-xl-1 ">
+                                    The TRVAL webisite is related hiking and mostly for tourism, Becuse the people didn’t no about the amazing places to descore and enjoy the nature.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- 88888888888
+        Section-7
+        88888888888 -->
+                <section id="section-7">
+                    <div class="row">
+                        <div class="col-12 col-md-12 col-lg-6 bg-blue"></div>
+                        <div class="container-small mx-auto hero-content">
+                            <div class="row flex-column-reverse flex-lg-row">
+                                <div class="col-12 col-md-12 col-lg-6 s5-col px-5 px-md-2 ">
+                                    <div class="ms-lg-4">
+                                        <h3 class="heading">
+                                            Mental Health Wellness
+                                        </h3>
+                                        <button class="btn me-2 my-1 my-lg-4">IOS & Android</button>
+                                        <button class="btn ms-4 ms-md-2">UI & UX</button>
+                                        <p class="content pt-4 pt-xl-1">
+                                            The Mental Health Wellness is help you with  send protectly send the your File and no one can acess , if you send picure’s and video’s so this is help’ with if regular send your data this is help you more fast and protect wayso go check this app and download the app and enjay.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-6 ">
+                                    <div class="slider-div">
+                                        <img
+                                            src="photo/orange scrn.png"
+                                            width="100%"
+                                            height="100%"
+                                            class="img-1"
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- *************
+        Section-8
+        ************* -->
+                    <section id="section-8">
+                        <div class="container-small">
+                            <div class=" d-flex flex-column align-items-center">
+                                <h3 class="heading pb-3">
+                                    How to we work your project
+                                </h3>
+                                <p class="content txt-normal m-0">
+                                    Our process is founded on the best practices of agile management and iterative software development. It is transparent, flexible and allows to keep everyone in the loop and control cost efficiency. It also ensures every digital product and service we build evolves as requirementsand market reality change.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row mini-card-row">
+                                <div class="container-small position-relative">
+                                    <div class="border-vertical"></div>
+                                    <div class="border-vertical-2"></div>
+                                    <div class="card-box">
+                                        <!-- row-1 -->
+                                        <div class="row position-relative" style="margin-bottom: 80px; z-index: 1; row-gap: 80px;">
+                                            <div class="row-1-box position-absolute horizontal-border"></div>
+                                            <div class="col-12 col-lg-6 pe-lg-5">
+                                                <!-- card-1 -->
+                                                <div class="card-one">
+                                                    <img src="photo/minicard-1.png" class="">
+                                                    <div class="ps-md-5  ps-3">
+                                                        <h2 class="card-heading">Brainstroming</h2>
+                                                        <h5 class="card-names">Design</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- card-2 -->
+                                            <div class="col-12 col-lg-6 ps-lg-5">
+                                                <div class="card-one">
+                                                    <img src="photo/minicard-1.png" class="">
+                                                    <div class="ps-md-5 ps-3">
+                                                        <h2 class="card-heading">Product</h2>
+                                                        <h5 class="card-names">Ideas</h5>
+                                                    </div>
+                                                    <div class="circle">
+                                                        <span class="dot"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- row-2 -->
+                                        <div class="row position-relative" style="margin-bottom: 80px; z-index: 1; row-gap: 80px;">
+                                            <div class="row-1-box position-absolute horizontal-border"></div>
+                                            <!-- card-3 -->
+                                            <div class=" col-12 col-lg-6 pe-lg-5">
+                                                <div class="card-one">
+                                                    <img src="photo/minicard-1.png" class="">
+                                                    <div class="ps-md-5 ps-3">
+                                                        <h2 class="card-heading">Back-End</h2>
+                                                        <h5 class="card-names">Back-End</h5>
+                                                    </div>
+                                                    <div class="circle-3">
+                                                        <span class="dot-3"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- card-4 -->
+                                            <div class="col-12 col-lg-6 ps-lg-5">
+                                                <div class="card-one">
+                                                    <img src="photo/minicard-1.png" class="">
+                                                    <div class="ps-md-5 ps-3">
+                                                        <h2 class="card-heading">Front-End</h2>
+                                                        <h5 class="card-names">Front-End</h5>
+                                                    </div>
+                                                    <div class="circle-2">
+                                                        <span class="dot-2"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- row-3 -->
+                                        <div class="row position-relative" style="z-index: 1;row-gap: 80px;">
+                                            <div class="row-1-box position-absolute horizontal-border"></div>
+                                            <!-- card-5 -->
+                                            <div class="col-12 col-lg-6 pe-lg-5">
+                                                <div class="card-one">
+                                                    <img src="photo/minicard-1.png" class="">
+                                                    <div class="ps-md-5 ps-3">
+                                                        <h2 class="card-heading">SEO</h2>
+                                                        <h5 class="card-names">Optimization</h5>
+                                                    </div>
+                                                    <div class="circle-4">
+                                                        <span class="dot-4"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- card-6 -->
+                                            <div class="col-12 col-lg-6 ps-lg-5 position-relative">
+                                                <div class="card-one">
+                                                    <img src="photo/minicard-1.png" class="">
+                                                    <div class="ps-md-5 ps-3">
+                                                        <h2 class="card-heading">Digital</h2>
+                                                        <h5 class="card-names">Marketing</h5>
+                                                    </div>
+                                                    <div class="circle">
+                                                        <span class="dot"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- *************
+        Section-9
+        ************* -->
+                    <section id="section-9">
+                        <div class="container-small">
+                            <div class=" d-flex flex-column align-items-center">
+                                <h3 class="heading pb-3">
+                                    what our client say
+                                </h3>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- *************
+        Section-10
+        ************* -->
+                    <section id="section-10" class="position-relative pt-5 ">
+                        <div class="row position-absolute w-100 h-100 top-0 left-0 z-n1">
+                            <div class="col-12 col-md-6 col-lg-5 bg-blue h-100"></div>
+                            <div class="col-12 col-md-6 col-lg-7 "></div>
+                        </div>
+                        <div class="container-fluaid mx-auto">
+                            <div class="rows">
+                                <!-- row-1 -->
+                                <div class="row d-none">
+                                    <div class="col-12 col-md-6 col-lg-5 text-center d-flex overflow-hidden">
+                                        <img src="photo/zahir-namane-hwc7eIQiTCE-unsplash 1.png" width="100%" class="client-img mt-auto mx-auto">
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-7 sec-col ">
+                                        <div class="slider-div">
+                                            <img src="photo/left-quotes.png" alt="">
+                                            <h2 class="text-center text">CircleX 1 has phenomenal project management skills — they’re always willing to accommodate our queries and concerns.</h2>
+                                            <img src="photo/right-quotes.png" class="float-end pe-lg-5">
+                                        </div>
+                                        <div class="slider-tools">
+                                            <div class="d-flex  flex-column">
+                                                <h4>Joe Andrno</h4>
+                                                <p>Founder, FAKE IT LLC</p>
+                                            </div>
+                                            <!-- <div class="text-center">
+                                                <div>
+                                                    <img src="photo/arrow left.png" class="left-arrow ">
+                                                    <img src="photo/arrow right.png" class="right-arrow">
+                                                </div>
+                                                <div class="spans text-center">
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                </div>
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row d-none">
+                                    <div class="col-12 col-md-6 col-lg-5 text-center d-flex overflow-hidden">
+                                        <img src="photo/zahir-namane-hwc7eIQiTCE-unsplash 1.png" width="100%" class="client-img mt-auto mx-auto">
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-7 sec-col ">
+                                        <div class="slider-div">
+                                            <img src="photo/left-quotes.png" alt="">
+                                            <h2 class="text-center text">CircleX 2 has phenomenal project management skills — they’re always willing to accommodate our queries and concerns.</h2>
+                                            <img src="photo/right-quotes.png" class="float-end pe-lg-5">
+                                        </div>
+                                        <div class="slider-tools">
+                                            <div class="d-flex  flex-column">
+                                                <h4>Joe Andrno</h4>
+                                                <p>Founder, FAKE IT LLC</p>
+                                            </div>
+                                            <!-- <div class="text-center">
+                                                <div>
+                                                    <img src="photo/arrow left.png" class="left-arrow ">
+                                                    <img src="photo/arrow right.png" class="right-arrow">
+                                                </div>
+                                                <div class="spans text-center">
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                </div>
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row-2 -->
+                                <div class="row d-none">
+                                    <div class="col-12 col-md-6 col-lg-5 text-center d-flex overflow-hidden">
+                                        <img src="photo/zahir-namane-hwc7eIQiTCE-unsplash 1.png" width="100%" class="client-img mt-auto mx-auto">
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-7 sec-col ">
+                                        <div class="slider-div">
+                                            <img src="photo/left-quotes.png" alt="">
+                                            <h2 class="text-center text">CircleX 3 has phenomenal project management skills — they’re always willing to accommodate our queries and concerns.</h2>
+                                            <img src="photo/right-quotes.png" class="float-end pe-lg-5">
+                                        </div>
+                                        <div class="slider-tools">
+                                            <div class="d-flex flex-column">
+                                                <h4>Joe Andrno</h4>
+                                                <p>Founder, FAKE IT LLC</p>
+                                            </div>
+                                       
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                            <div class="text-end arrow-margin">
+                                <div>
+                                    <img src="photo/arrow left.png" class="left-arrow ">
+                                    <img src="photo/arrow right.png" class="right-arrow">
+                                </div>
+                                <div class="spans me-2 me-md-3">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+    <!--*************
+Section-11
+*************-->
+                    <secttion id="section-11" class="d-block">
+                        <div class="container-small  position-relative d-flex justify-content-center">
+                            <div class="arrows-div">
+                                <i class="fa-solid fa-angle-left  slider-left-arrow"></i>
+                                <i class="fa-solid fa-angle-right slider-right-arrow"></i>
+                            </div>
+                            <div class="avatar-card">
+                                <div class="slider">
+                                    <div class="card">
+                                        <img src="photo/alimarel-hpZ6NCRLe1A-unsplash.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body ">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">Some quick .</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="photo/alimarel-hpZ6NCRLe1A-unsplash.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body ">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">Some quick .</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="photo/alimarel-hpZ6NCRLe1A-unsplash.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body ">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">Some quick .</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="photo/alimarel-hpZ6NCRLe1A-unsplash.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body ">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">Some quick .</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="photo/alimarel-hpZ6NCRLe1A-unsplash.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body ">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">Some quick .</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="photo/alimarel-hpZ6NCRLe1A-unsplash.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body ">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">Some quick .</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </secttion>
+        <!-- *************
+        Section-12
+        ************* -->
+                    <section id="section-12">
+                        <div class="contact-container s12-color">
+                            <div class="s12-content">
+                                <div class="dev-width">
+                                    <h2 class="h2">
+                                        Let’s Create Big Stories Together
+                                    </h2>
+                                    <p class="p py-4">Mobile is in our nerves. We don’t just build apps, we create brand. Choosing us will be your best decision.</p>
+                                    <button class="Contact-button">Contact Us</button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- **************
+                       FOOTER
+                    **************    -->
+                    <footer id="footer">
+                        <div class="container">
+                            <div class="footer-logo">
+                                <img src="photo/footer-logo.png" alt="">
+                            </div>
+                            <div class="row py-5">
+                                <div class="col-sm-12 col-md-6 col-lg-3 pe-5">
+                                    <h4 class="py-3">Circle X pvt.Ltd</h4>
+                                    <p class="pe-2">B Rd, Bahria Town Phase V Phase 5 Bahria Town, Rawalpindi, Islamabad, Punjab, Pakistan.</p>
+                                </div>
+                                <div class="col-sm-12 col-md-6 col-lg-3">
+                                    <h4 class="py-3">Services</h4>
+                                    <div>
+                                        <span class="pt-0">Development</span>
+                                        <br>
+                                        <span>CRM Solution</span>
+                                        <br>
+                                        <span>UX/UI design</span>
+                                        <br>
+                                        <span>IT Support</span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-6 col-lg-3">
+                                    <h4 class="py-3">Contact</h4>
+                                    <div>
+                                        <span class="pt-0 contact-span text-light">circlex02@gmail.com</span>
+                                        <br>
+                                        <span>+92 3449622270</span>
+                                        <br>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-6 col-lg-3 pt-md-5 ">
+                                    <button class="Contact-button mt-3">Contact</button>
+                                </div>
+                            </div>
+                            <div class="copy-write text-center">
+                                <p class="copy-p">© 2023 CircleX. All rights reserved.</p>
+                            </div>
+                        </footer>
+                        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+                        <script src="script/scrrpt.js"></script>
+                    </body>
+                </html>
