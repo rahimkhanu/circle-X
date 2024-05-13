@@ -21,8 +21,8 @@ function changeImg() {
     img2.classList.toggle('d-none')
     span1.classList.toggle('d-none')
     span2.classList.toggle('d-none')
-    circleicon.classList.toggle('span-blue')
-    circleicon2.classList.toggle('span-blue')
+    circleicon.classList.toggle('span-active')
+    circleicon2.classList.toggle('span-active')
 
     setTimeout("changeImg()", 10000);
 }
@@ -55,17 +55,24 @@ sliderRighttArrow.addEventListener('click', () => {
 
 // clinet recviwe slider
 // it will make array of divs
+let spans = document.querySelectorAll('.spans span')
 let index = 0;
 let row_div = document.querySelectorAll('.rows .row')
 function review_carousal() {
     // row_div.forEach((element,ind) => {
 
     row_div[index].classList.remove('d-none')
+    spans[index].classList.add('active')
+
     if (index == 0) {
         row_div[row_div.length - 1].classList.add('d-none')
+        spans[row_div.length - 1].classList.remove('active')
+
     }
     else {
         row_div[index - 1].classList.add('d-none')
+        spans[index - 1].classList.remove('active')
+
 
     }
 
@@ -77,14 +84,3 @@ function review_carousal() {
     setTimeout("review_carousal()", 3000);
 }
 window.onload = review_carousal;
-
-let left_arrow = document.querySelector('.left-arrow') 
-let right_arrow = document.querySelector('.right-arrow') 
-
-left_arrow.addEventListener('click',()=>{
-    if(index < row_div ){
-        console.log('rahim')
-        index++; 
-        
-    }
-})

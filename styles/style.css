@@ -7,8 +7,9 @@
     box-sizing: border-box;
     padding: 0;
 }
-html{
-    scroll-padding-top:90px ;
+
+html {
+    scroll-padding-top: 90px;
     scroll-behavior: smooth;
 }
 
@@ -44,7 +45,7 @@ html{
     color: white;
     font-size: 17px;
     font-weight: 600;
-    padding: 5px 15px;
+    padding: 8px 15px;
 
 }
 
@@ -75,14 +76,16 @@ html{
 .navbar-toggler {
     color: white !important;
 }
-.color-white a{
-    color: #171d3f!important;
+
+.color-white a {
+    color: #171d3f !important;
 }
-.dropdown-item.active-sub{
+
+.dropdown-item.active-sub {
     background-color: #171d3f;
-    color: white!important;
-    
-  }
+    color: white !important;
+
+}
 
 /* ****************
    Navbar End
@@ -103,6 +106,9 @@ html{
 .span-blue {
     background-color: #171D3F !important;
 }
+.span-active{
+    background-color: #7d91f27e!important;
+}
 
 #hero .hero-content {
     padding: 150px 0 80px 0;
@@ -119,7 +125,8 @@ html{
 .span-1,
 .span-2,
 .sec-icon,
-.sec-icon-2 {
+.sec-icon-2,
+.row {
     animation-name: animate;
     animation-play-state: running;
     animation-timing-function: linear;
@@ -284,7 +291,7 @@ Section-4
 }
 
 #section-4 .heading {
-    width: 40%;
+    max-width: 40%;
     font-size: clamp(24px, 5vw, 28px);
 
 }
@@ -298,7 +305,7 @@ Section-4
 Section-5
 88888888888 --> */
 #section-5 {
-    padding: 30px;
+    padding: 30px 15px;
 
 }
 
@@ -371,7 +378,7 @@ Section-5
 Section-7
 88888888888 --> */
 #section-5 {
-    padding: 30px;
+    padding: 30px 15px;
 
 }
 
@@ -653,7 +660,6 @@ Section-10
 
 
 #section-10 .slider-tools {
-    /* margin-top: 80px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -668,7 +674,7 @@ Section-10
 #section-10 p {
     font-family: var(--body);
     font-weight: 400;
-    font-size: 15px;
+    font-size: clamp(10px, 4vw, 14px);
 }
 
 #section-10 .slider-div {
@@ -690,12 +696,19 @@ Section-10
     height: 10px;
     background-color: black;
     border-radius: 50%;
+    opacity: 0.5;
+}
+
+#section-10 .spans span.active {
+    opacity: 1;
 }
 
 #section-10 .arrow-margin {
-    transform: translateY(-80px);
-    margin-right: 25px;
     background-color: transparent;
+}
+
+#section-10 .arrow-margin div {
+    bottom: 14px;
 }
 
 /* *************
@@ -954,8 +967,7 @@ Hero-Section
 
 #arrow-2 {
     color: #57C603;
-    font-size: clamp(61px, 5vw ,40px)
-
+    font-size: clamp(61px, 5vw, 40px)
 }
 
 
@@ -1105,22 +1117,25 @@ ______________________________________________________________________ */
     font-size: clamp(10px, 5vw, 18px);
 }
 
-.div-width{
+.div-width {
     max-width: 75%;
 }
 
-.pss-5{
-    padding-left: 120px!important;
-    padding-right: 70px!important;
+.pss-5 {
+    padding-left: 120px !important;
+    padding-right: 70px !important;
 }
-.pxx-5{
+
+.pxx-5 {
     padding: 0 50px;
 }
-.ptt-5{
-    padding-top: 80px!important;
+
+.ptt-5 {
+    padding-top: 80px !important;
 }
-.pttt-5{
-    padding-top: 120px!important;
+
+.pttt-5 {
+    padding-top: 120px !important;
 }
 
 
@@ -1128,24 +1143,25 @@ ______________________________________________________________________ */
 /* form */
 input[type=text] {
     font-family: var(--body);
-    color:#939393;
+    color: #939393;
     width: 100%;
     padding: 12px 20px 12px 5px;
     margin: 8px 0;
     box-sizing: border-box;
     border: none;
     border-bottom: 2px solid #939393;
-  }
+}
+
 textarea[type=text] {
     font-family: var(--body);
-    color:#939393;
+    color: #939393;
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     border: none;
     border-bottom: 2px solid #CBCBCB;
-  }
+}
 
 
 
@@ -1160,7 +1176,8 @@ Media Quries
 }
 
 #section-10 .slider-tools {
-    margin-top: 320px;
+    /* margin-top: 320px; */
+    width: 100%;
 }
 
 #hero-2 .h1-div {
@@ -1172,7 +1189,8 @@ Media Quries
 #hero-2 .custom-height {
     min-height: 100%;
 }
-.content-1{
+
+.content-1 {
     max-width: 100%;
 }
 
@@ -1238,7 +1256,8 @@ Media Quries
     #section-6 .btn {
         padding: 1px 20px;
     }
-    #section-7 .heading{
+
+    #section-7 .heading {
         padding-top: 20px;
     }
 
@@ -1291,15 +1310,10 @@ Media Quries
     }
 
     #section-10 .slider-tools {
-        margin-top: 100px;
         background-color: white;
         padding: 10px 20px;
-        margin-bottom: 30px;
     }
 
-    #section-10 .arrow-margin {
-        transform: translateY(-112px);
-    }
 
     /* 
     #section-10 .img-col {
@@ -1316,24 +1330,26 @@ Media Quries
         min-width: 250px;
         margin-top: 10px;
     }
+
     /* .pss-5{
         padding-left:40px!important;
         padding-right: 40px!important;
     } */
-    .div-width{
+    .div-width {
         max-width: 100%;
     }
 
 
     /* _____________________________________________________________________
-_____________________________________________________________________
+    _____________________________________________________________________
        ---------------page NO 2-----------------------
 ______________________________________________________________________
 ______________________________________________________________________ */
     #hero-2 .hero-content {
         padding: 50px 0 80px 0;
-    } 
-    #hero-2 .hero-content-2{
+    }
+
+    #hero-2 .hero-content-2 {
         padding: 20px 0 80px 0;
     }
 
@@ -1349,16 +1365,20 @@ ______________________________________________________________________ */
     #hero-2 .custom-height {
         height: 161%;
     }
-    #p2-section-2 .content{
+
+    #p2-section-2 .content {
         max-width: 80%;
     }
-    #p2-section-3 .heading{
+
+    #p2-section-3 .heading {
         max-width: 80%;
     }
-    #p2-section-3 .content{
+
+    #p2-section-3 .content {
         max-width: 80%;
     }
-    .card-section-h3{
+
+    .card-section-h3 {
         width: 100%;
     }
 }
@@ -1373,6 +1393,18 @@ ______________________________________________________________________ */
 /* Mobil secrn */
 @media only screen and (max-width: 676px) {
 
+    .margin-auto{
+        margin: auto;
+    }
+    .w--100{
+        max-width: 100%!important;
+    } 
+    .center{
+        text-align: center;
+    }
+    .white--{
+        color: white!important;
+    }
     .first-col {
         margin-top: 50px;
     }
@@ -1400,7 +1432,11 @@ ______________________________________________________________________ */
     }
 
     .s6-first-col {
-        padding: 0 38px;
+        padding: 0 20px;
+    }
+    .img-1{
+        height:450px;
+        object-fit: scale-down;
     }
 
     #section-8 .circle,
@@ -1436,6 +1472,15 @@ ______________________________________________________________________ */
         height: 7px;
     }
 
+    #section-10 .arrow-margin div {
+        bottom: 14px;
+        right: 20px !important;
+    }
+
+    #section-10 .slider-tools div {
+        transform: translate(0px, 0px);
+    }
+
     #secion-10 .spans {
         margin-left: 10px;
     }
@@ -1448,7 +1493,8 @@ ______________________________________________________________________ */
     #section-12 .contact-container {
         max-width: 320px;
     }
-    .navbar-toggler{
+
+    .navbar-toggler {
         font-size: 15px;
     }
 
@@ -1467,16 +1513,20 @@ ______________________________________________________________________ */
     #hero-2 .custom-height {
         height: 180%;
     }
+
     #hero-2 .hero-content {
-        padding: 50px 0 20px 0;
-    } 
-    #p2-section-2 .content{
+        padding: 50px 15px 20px 15px;
+    }
+
+    #p2-section-2 .content {
         max-width: 80%;
     }
-    #p2-section-3 .content{
+
+    #p2-section-3 .content {
         max-width: 80%;
     }
-    #p2-section-3 .heading{
+
+    #p2-section-3 .heading {
         max-width: 80%;
     }
 
@@ -1486,9 +1536,9 @@ _____________________________________________________________________
               ---------------page NO 3-----------------------
 ______________________________________________________________________
 ______________________________________________________________________ */
-    .pss-5{
-        padding-left:40px!important;
-        padding-right: 20px!important;
+    .pss-5 {
+        padding-left: 40px !important;
+        padding-right: 20px !important;
     }
 
 }
